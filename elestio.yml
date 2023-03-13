@@ -1,10 +1,11 @@
 config:
-  runTime: "static"
+  runTime: "staticSPA"
   version: ""
   framework: ""
   buildCommand: ""
   buildDir: ""
   runCommand: ""
+  installCommand: 'npm install'
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
